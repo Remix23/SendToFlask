@@ -8,7 +8,7 @@ import do_wysylanie
 # variables
 file_name = 'Data_ws.txt'
 StaionId = 'MAIN'
-url = 'http://localhost:5000'
+url = 'https://flasktestws.herokuapp.com'
 
 # port
 ports = serial.tools.list_ports.comports()
