@@ -7,7 +7,7 @@ class Pomiar ():
         self.presure = measure[2]
         self.humidity = measure[3]
         self.batV = measure[4]
-        self.RSSI = measure[4]
+        self.RSSI = measure[5]
 
     def __repr__ (self):
         return (repr((self.id, self.sensorId, self.temp, self.presure, self.humidity, self.batV, self.RSSI)))
